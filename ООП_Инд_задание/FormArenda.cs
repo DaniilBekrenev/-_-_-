@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ООП_Инд_задание
 {
-    public partial class Form1 : Form
+    public partial class FormArenda : Form
     {
-        public Form1()
+        public FormArenda()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Отправляет заявку для аренды в выбранный промежуток
         }
     }
 }
