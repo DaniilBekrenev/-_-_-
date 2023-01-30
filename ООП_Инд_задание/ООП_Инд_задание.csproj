@@ -46,42 +46,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormArenda.cs">
+    <Compile Include="Клиент\FormDocum.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormArenda.Designer.cs">
+    <Compile Include="Клиент\FormDocum.Designer.cs">
+      <DependentUpon>FormDocum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Менеджер\FormAddKv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Менеджер\FormAddKv.Designer.cs">
+      <DependentUpon>FormAddKv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Клиент\FormArenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Клиент\FormArenda.Designer.cs">
       <DependentUpon>FormArenda.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormClient.cs">
+    <Compile Include="Клиент\FormClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormClient.Designer.cs">
+    <Compile Include="Клиент\FormClient.Designer.cs">
       <DependentUpon>FormClient.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMen.cs">
+    <Compile Include="Менеджер\FormMen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMen.Designer.cs">
+    <Compile Include="Менеджер\FormMen.Designer.cs">
       <DependentUpon>FormMen.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormReg.cs">
+    <Compile Include="Клиент\FormReg.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormReg.Designer.cs">
+    <Compile Include="Клиент\FormReg.Designer.cs">
       <DependentUpon>FormReg.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormArenda.resx">
+    <Compile Include="Менеджер\FormSpisok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Менеджер\FormSpisok.Designer.cs">
+      <DependentUpon>FormSpisok.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Клиент\FormDocum.resx">
+      <DependentUpon>FormDocum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Менеджер\FormAddKv.resx">
+      <DependentUpon>FormAddKv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Клиент\FormArenda.resx">
       <DependentUpon>FormArenda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormClient.resx">
+    <EmbeddedResource Include="Клиент\FormClient.resx">
       <DependentUpon>FormClient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMen.resx">
+    <EmbeddedResource Include="Менеджер\FormMen.resx">
       <DependentUpon>FormMen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormReg.resx">
+    <EmbeddedResource Include="Клиент\FormReg.resx">
       <DependentUpon>FormReg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -93,6 +117,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Менеджер\FormSpisok.resx">
+      <DependentUpon>FormSpisok.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

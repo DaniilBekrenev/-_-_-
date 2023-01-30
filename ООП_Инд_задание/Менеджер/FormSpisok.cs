@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ООП_Инд_задание
+namespace ООП_Инд_задание.Менеджер
 {
-    public partial class FormMen : Form
+    public partial class FormSpisok : Form
     {
-        public FormMen()
+        public FormSpisok()
         {
             InitializeComponent();
         }

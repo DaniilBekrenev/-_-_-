@@ -20,6 +20,7 @@ namespace ООП_Инд_задание
         private void button1_Click(object sender, EventArgs e)
         {
             // Отправляет заявку для аренды в выбранный промежуток
+            // Открывает форму с документом
         }
     }
 }
