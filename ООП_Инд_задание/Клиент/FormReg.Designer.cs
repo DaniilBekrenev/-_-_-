@@ -39,8 +39,8 @@ namespace ООП_Инд_задание
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -124,15 +124,6 @@ namespace ООП_Инд_задание
             this.textBox4.Size = new System.Drawing.Size(265, 20);
             this.textBox4.TabIndex = 10;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 241);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 13);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Почта";
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(242, 259);
@@ -142,6 +133,15 @@ namespace ООП_Инд_задание
             this.button2.Text = "Войти";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 241);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(37, 13);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Почта";
             // 
             // FormReg
             // 
@@ -179,7 +179,7 @@ namespace ООП_Инд_задание
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label5;
     }
 }

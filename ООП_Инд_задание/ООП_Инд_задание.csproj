@@ -70,6 +70,12 @@
     <Compile Include="Клиент\FormClient.Designer.cs">
       <DependentUpon>FormClient.cs</DependentUpon>
     </Compile>
+    <Compile Include="Менеджер\FormDogovor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Менеджер\FormDogovor.Designer.cs">
+      <DependentUpon>FormDogovor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Менеджер\FormMen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Клиент\FormClient.resx">
       <DependentUpon>FormClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Менеджер\FormDogovor.resx">
+      <DependentUpon>FormDogovor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Менеджер\FormMen.resx">
       <DependentUpon>FormMen.cs</DependentUpon>

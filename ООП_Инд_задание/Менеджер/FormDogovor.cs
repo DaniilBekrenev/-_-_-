@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace ООП_Инд_задание.Менеджер
 {
-    public partial class FormSpisok : Form
+    public partial class FormDogovor : Form
     {
-        public FormSpisok()
+        public FormDogovor()
         {
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            // Открытие формы договора
+            // Выводит договор на печать
         }
     }
 }
- 

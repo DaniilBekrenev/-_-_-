@@ -22,5 +22,19 @@ namespace ООП_Инд_задание
             // такая же форма как  для клиента, только эти данные будут сохраняться с пометкой, что регистрировался менеджер
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // открывает форму для добавления аренды в список
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // переход на форму с заявками
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // открывает форму со списком клиентов и его аренды
+        }
     }
 }
